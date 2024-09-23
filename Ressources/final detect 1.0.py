@@ -3,14 +3,17 @@ import cv2
 import face_recognition
 import PIL.Image, PIL.ImageTk
 import os
+import numpy as np
 
 # Paramètres http://192.168.43.1:8080/video
-# video_path = r"C:\Users\_Maes\Desktop\training ttkBoostrap GUI\vidjulios.mp4"
 video_path = 0
-# video_path = "http://192.168.43.1:8080/video"
 output_folder = r"C:\Users\_Maes\Desktop\soutenance 2k24\images photos"
-known_faces_folder = r"C:\Users\_Maes\Desktop\soutenance 2k24\personnes connus"
+pretrained_folder = r"C:\Users\_Maes\Desktop\KKB_SECU\Pretrainement"
 max_images_intrus = 15
+log_file = os.path.join(pretrained_folder, "recognition_log.txt")  # Fichier pour enregistrer les résultats
+
+encodings_file = os.path.join(pretrained_folder, "face_encodings.npy")
+names_file = os.path.join(pretrained_folder, "face_names.npy")
 
 # Définir cap comme variable globale
 cap = None
@@ -52,32 +55,28 @@ def update_scroll_region(event):
 
 canvas.bind("<Configure>", update_scroll_region)
 
-# Charger les images des personnes connues et les encoder
-def load_known_faces(known_faces_folder):
-    known_face_encodings = []
-    known_face_names = []
-    known_face_images = {}  # Pour stocker les images des personnes connues
-    for person_name in os.listdir(known_faces_folder):
-        person_folder = os.path.join(known_faces_folder, person_name)
-        if os.path.isdir(person_folder):
-            for image_name in os.listdir(person_folder):
-                image_path = os.path.join(person_folder, image_name)
-                image = face_recognition.load_image_file(image_path)
-                encoding = face_recognition.face_encodings(image)
-                if encoding:
-                    known_face_encodings.append(encoding[0])
-                    known_face_names.append(person_name)
-                    # Charger l'image connue
-                    pil_image = PIL.Image.open(image_path)
-                    pil_image.thumbnail((150, 150))  # Redimensionner l'image
-                    known_face_images[person_name] = PIL.ImageTk.PhotoImage(pil_image)
-    return known_face_encodings, known_face_names, known_face_images
+# Fonction pour charger les encodages et noms prétraités
+def load_pretrained_encodings():
+    if os.path.exists(encodings_file) and os.path.exists(names_file):
+        known_face_encodings = np.load(encodings_file, allow_pickle=True)
+        known_face_names = np.load(names_file, allow_pickle=True)
+        print("Encodages chargés avec succès.")
+        return known_face_encodings, known_face_names
+    else:
+        print("Aucun fichier d'encodage trouvé.")
+        return [], []
 
-known_face_encodings, known_face_names, known_face_images = load_known_faces(known_faces_folder)
+# Charger les encodages prétraités
+known_face_encodings, known_face_names = load_pretrained_encodings()
 
 # Liste pour stocker les chemins des images des intrus sauvegardées
 saved_images_intrus = []
 recognized_name = None  # Pour vérifier si une personne est reconnue
+
+# Fonction pour enregistrer le score de reconnaissance dans un fichier texte
+def log_recognition_result(name, score):
+    with open(log_file, "a") as f:
+        f.write(f"{name}: {score}%\n")
 
 # Fonction pour arrêter la capture vidéo et afficher un message
 def stop_video_with_message():
@@ -111,26 +110,29 @@ def process_frame():
     for (top, right, bottom, left), face_encoding in zip(face_locations, face_encodings):
         # Comparer avec les visages connus
         matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
+        face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
+        best_match_index = None
         name = "intrus !"
         color = (0, 0, 255)  # Rouge pour les intrus
         
         if True in matches:
-            first_match_index = matches.index(True)
-            name = known_face_names[first_match_index]
+            best_match_index = matches.index(True)
+            name = known_face_names[best_match_index]
             color = (0, 255, 0)  # Vert pour les visages reconnus
 
-            # Si une personne est reconnue et ce n'est pas la même personne précédente
-            if name != recognized_name:
-                recognized_name = name
-                # Afficher la photo de la personne reconnue
-                if name in known_face_images:
-                    known_image_label = ctk.CTkLabel(known_image_frame, image=known_face_images[name], text=name)
-                    known_image_label.pack()
-        
+            # Calculer le score de correspondance
+            score = round((1 - face_distances[best_match_index]) * 100, 2)
+            name_with_score = f"{name} ({score}%)"
+            
+            # Enregistrer le score dans le fichier texte
+            log_recognition_result(name, score)
+        else:
+            name_with_score = name
+
         # Dessiner des rectangles autour des visages et ajouter le texte
         cv2.rectangle(frame, (left, top), (right, bottom), color, 2)
         font = cv2.FONT_HERSHEY_SIMPLEX
-        cv2.putText(frame, name, (left, bottom + 20), font, 0.75, color, 2)
+        cv2.putText(frame, name_with_score, (left, bottom + 20), font, 0.75, color, 2)
 
         # Sauvegarder les images des intrus détectés
         if name == "intrus !" and len(saved_images_intrus) < max_images_intrus:
@@ -152,15 +154,15 @@ def process_frame():
     app.after(10, process_frame)
 
 # Fonction pour démarrer la reconnaissance faciale
-def start_recognition():
+def start_recognition(): 
     global cap
     cap = cv2.VideoCapture(video_path)  # Initialiser la capture vidéo ici
     process_frame()  # Appeler la fonction de traitement des frames
-    # Arrêter la reconnaissance faciale après 1 minute
+    # Arrêter la reconnaissance faciale après 
     app.after(700000, stop_video_with_message)
 
 # Démarrer la reconnaissance faciale après 10 secondes de lecture vidéo
-app.after(5000, start_recognition)
+app.after(100, start_recognition)
 
 # Lancer l'application
 app.mainloop()
