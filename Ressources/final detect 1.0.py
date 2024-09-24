@@ -117,13 +117,13 @@ def process_frame():
         
         if True in matches:
             best_match_index = matches.index(True)
-            name = known_face_names[best_match_index]
-            color = (0, 255, 0)  # Vert pour les visages reconnus
-
-            # Calculer le score de correspondance
             score = round((1 - face_distances[best_match_index]) * 100, 2)
+            # name = known_face_names[best_match_index]
+            if score >= 59:
+                name = known_face_names[best_match_index]
+                color = (0, 255, 0)  # Vert pour les visages reconnus
+
             name_with_score = f"{name} ({score}%)"
-            
             # Enregistrer le score dans le fichier texte
             log_recognition_result(name, score)
         else:

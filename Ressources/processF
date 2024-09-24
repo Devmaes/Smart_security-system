@@ -1,0 +1,103 @@
+import os
+import cv2
+import PIL.Image, PIL.ImageTk
+import face_recognition
+
+# Variables globales
+known_face_encodings = []
+known_face_names = []
+saved_images_intrus = []
+max_images_intrus = 10
+output_folder = "C:/Users/_Maes/Desktop/KKB_SECU/Pretrainement/intrus_images"
+recognized_name = None
+
+# Charger les encodages et les noms des personnes connues
+def load_known_faces():
+    global known_face_encodings, known_face_names
+
+    # Dossier des personnes connues
+    known_faces_dir = "C:/Users/_Maes/Desktop/soutenance 2k24/personnes connus"
+
+    # Charger les encodages et noms des visages connus
+    for name in os.listdir(known_faces_dir):
+        person_dir = os.path.join(known_faces_dir, name)
+        for filename in os.listdir(person_dir):
+            img_path = os.path.join(person_dir, filename)
+            img = face_recognition.load_image_file(img_path)
+            encoding = face_recognition.face_encodings(img)[0]
+            known_face_encodings.append(encoding)
+            known_face_names.append(name)
+
+# Fonction pour journaliser le résultat de reconnaissance
+def log_recognition_result(name, score):
+    log_file = "C:/Users/_Maes/Desktop/KKB_SECU/Pretrainement/resultats.txt"
+    with open(log_file, 'a') as file:
+        file.write(f"Nom: {name}, Score: {score}%\n")
+
+# Fonction pour traiter le frame et effectuer la reconnaissance faciale
+def process_frame():
+    global saved_images_intrus, recognized_name, cap
+
+    # Vérifier si la capture est encore ouverte
+    if cap is None or not cap.isOpened():
+        return
+    
+    ret, frame = cap.read()
+    if not ret:
+        cap.release()
+        return
+    
+    # Convertir l'image BGR en RGB pour face_recognition
+    rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+    
+    # Détection des visages
+    face_locations = face_recognition.face_locations(rgb_frame)
+    face_encodings = face_recognition.face_encodings(rgb_frame, face_locations)
+
+    for (top, right, bottom, left), face_encoding in zip(face_locations, face_encodings):
+        # Comparer avec les visages connus
+        matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
+        face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
+        best_match_index = None
+        name = "intrus !"  # Par défaut, considérer comme intrus
+        color = (0, 0, 255)  # Rouge pour les intrus
+        
+        if True in matches:
+            best_match_index = matches.index(True)
+            score = round((1 - face_distances[best_match_index]) * 100, 2)
+
+            # Vérifier si le score est supérieur à 59%
+            if score >= 59:
+                name = known_face_names[best_match_index]
+                color = (0, 255, 0)  # Vert pour les visages reconnus
+
+            name_with_score = f"{name} ({score}%)"
+            
+            # Enregistrer le score dans le fichier texte
+            log_recognition_result(name, score)
+        else:
+            name_with_score = name
+
+        # Dessiner des rectangles autour des visages et ajouter le texte
+        cv2.rectangle(frame, (left, top), (right, bottom), color, 2)
+        font = cv2.FONT_HERSHEY_SIMPLEX
+        cv2.putText(frame, name_with_score, (left, bottom + 20), font, 0.75, color, 2)
+
+        # Sauvegarder les images des intrus détectés
+        if name == "intrus !" and len(saved_images_intrus) < max_images_intrus:
+            intrus_img = frame[top:bottom, left:right]
+            intrus_path = os.path.join(output_folder, f"intrus_{len(saved_images_intrus) + 1}.png")
+            cv2.imwrite(intrus_path, intrus_img)
+            saved_images_intrus.append(intrus_path)
+
+    # Convertir l'image OpenCV en image PIL
+    frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+    pil_img = PIL.Image.fromarray(frame_rgb)
+    tk_img = PIL.ImageTk.PhotoImage(pil_img)
+
+    # Afficher l'image dans le canevas
+    canvas.create_image(0, 0, anchor="nw", image=tk_img)
+    canvas.image = tk_img  # Garder une référence pour éviter la destruction de l'image
+
+    # Appeler la fonction de traitement du prochain frame
+    app.after(10, process_frame)
