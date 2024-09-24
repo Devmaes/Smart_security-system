@@ -4,6 +4,7 @@ import face_recognition
 import PIL.Image, PIL.ImageTk
 import os
 import numpy as np
+import datetime
 
 # Paramètres http://192.168.43.1:8080/video
 video_path = 0
@@ -75,9 +76,15 @@ recognized_name = None  # Pour vérifier si une personne est reconnue
 
 # Fonction pour enregistrer le score de reconnaissance dans un fichier texte
 def log_recognition_result(name, score):
-    with open(log_file, "a") as f:
-        f.write(f"{name}: {score}%\n")
+    # Obtenir la date et l'heure actuelles en format français
+    now = datetime.datetime.now()
+    formatted_date = now.strftime("%d/%m/%Y à %H:%M:%S")  # Exemple: 24/09/2024 à 14:35:22
 
+    log_file = "C:/Users/_Maes/Desktop/KKB_SECU/Pretrainement/resultats.txt"
+    with open(log_file, 'a') as file:
+        # Ajouter la date et l'heure à l'enregistrement
+        file.write(f"Nom: {name}, Score: {score}%, Enregistrer le: {formatted_date}\n")
+        
 # Fonction pour arrêter la capture vidéo et afficher un message
 def stop_video_with_message():
     global cap

@@ -2,6 +2,7 @@ import os
 import cv2
 import PIL.Image, PIL.ImageTk
 import face_recognition
+import datetime
 
 # Variables globales
 known_face_encodings = []
@@ -29,10 +30,18 @@ def load_known_faces():
             known_face_names.append(name)
 
 # Fonction pour journaliser le résultat de reconnaissance
+import datetime
+
 def log_recognition_result(name, score):
+    # Obtenir la date et l'heure actuelles en format français
+    now = datetime.datetime.now()
+    formatted_date = now.strftime("%d/%m/%Y à %H:%M:%S")  # Exemple: 24/09/2024 à 14:35:22
+
     log_file = "C:/Users/_Maes/Desktop/KKB_SECU/Pretrainement/resultats.txt"
     with open(log_file, 'a') as file:
-        file.write(f"Nom: {name}, Score: {score}%\n")
+        # Ajouter la date et l'heure à l'enregistrement
+        file.write(f"Nom: {name}, Score: {score}%, Enregistré le: {formatted_date}\n")
+
 
 # Fonction pour traiter le frame et effectuer la reconnaissance faciale
 def process_frame():
