@@ -19,8 +19,10 @@ def Start():
     label.pack(pady=10)
 
     # Ajouter un bouton de fermeture au nouveau frame
-    close_button = ctk.CTkButton(new_window_frame, text="Fermer", command=new_window_frame.destroy)
-    close_button.pack(pady=5)
+def Go():  
+    print("le test est bon bro !!!!")  
+    fen.destroy()
+    print("aurevoir!!!!")
 #foction de test
 def Test():
     print("le test est bon bro !!!!")
@@ -40,7 +42,7 @@ def Test():
 # Configuration de la fenêtre principale
 fen = ctk.CTk()
 fen.title("KKBSECU")
-fen.geometry("1200x650")
+fen.attributes("-fullscreen", True)
 fen.iconbitmap('C:/Users/_Maes/Desktop/GestCom/src/images/logo_kkbgestcom (1).ico')
 
 # Ajouter une image d'arrière-plan
@@ -59,13 +61,13 @@ top_frame = ctk.CTkFrame(fen,fg_color="transparent", border_width=9, border_colo
 top_frame.pack(side="top", fill="x", padx=10, pady=10, anchor = "center")
 
 # Labels
-lab1 = ctk.CTkLabel(fen, text="Mes Options", font=("Helvetica", 16, "bold"))
-lab1.place(x=50, y=20)
+lab1 = ctk.CTkLabel(main_frame, text="_Mes Options_", font=("Helvetica", 16, "bold"))
+lab1.pack()
 
 lab3 = ctk.CTkLabel(top_frame, text="KKB", font=("Helvetica", 16, "bold"))
 lab3.pack(side="left")
 
-lab4 = ctk.CTkLabel(top_frame, text="SECU", font=("Helvetica", 16, "bold"))
+lab4 = ctk.CTkLabel(top_frame, text="SECU", font=("Helvetica", 16, "bold"), bg_color="blue")
 lab4.pack(side="left")
 
 # Toggle button
@@ -90,11 +92,12 @@ icon_paths = {
     "Entrainement": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/ai.png",
     "Configuration": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/gear.png",
     "reconnaissance": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/reconnaissance.png",
+    "go": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/exit.png",
 }
 
 def create_button(parent, text, icon_path,fonc, fgcolor):
     icon_image = Image.open(icon_path)
-    icon_image = icon_image.resize((20, 20))  # Redimensionner l'icône
+    icon_image = icon_image.resize((30, 30))  # Redimensionner l'icône
     icon_photo = ImageTk.PhotoImage(icon_image)
     button = ctk.CTkButton(parent, text=text, width=200, height=50,image=icon_photo, compound="left",command=fonc, anchor ="center", fg_color=fgcolor )
     button.image = icon_photo  # Prévenir le garbage collector
@@ -102,11 +105,13 @@ def create_button(parent, text, icon_path,fonc, fgcolor):
 
 # Boutons positionnés en bas de la première frame
 main_frame.configure(fg_color='transparent')
+but8 = create_button(main_frame, "Quitter", icon_paths["go"],Go, "Dark Red")
+but8.pack(side="bottom", pady=10, padx=15)
 but1 = create_button(main_frame, "Ajouter Utilisateur", icon_paths["Ajouter Utilisateur"],Test, "blue")
-but1.pack(side="bottom", pady=10, padx=15)
+but1.pack(side="bottom", pady=3,padx=15)
 
 but2 = create_button(main_frame, "Liste Des Utilisateurs", icon_paths["Liste Des Utilisateurs"],Test, "blue")
-but2.pack(side="bottom", pady=3,padx=15)
+but2.pack(side="bottom", pady=5,padx=15)
 
 but3 = create_button(main_frame, "Feuille d'enregistrement", icon_paths["Feuille d'enregistrement"],Test, "blue")
 but3.pack(side="bottom", pady=5,padx=15)
@@ -122,6 +127,14 @@ but6.pack(side="bottom", pady=5,padx=15)
 
 but7 = create_button(main_frame, "Configuration", icon_paths["Configuration"],Test, "Dark Blue")
 but7.pack(side="bottom", pady=5,padx=15)
+
+#chargement du logo
+imageL_path = "C:/Users/_Maes/Desktop/KKB_SECU/Icones/logo_KKB.png"
+imageL = Image.open(imageL_path).resize((200,300))
+photoL = ImageTk.PhotoImage(imageL)
+image_label = ctk.CTkLabel(main_frame, image=photoL, text="")
+image_label.pack()
+
 
 # LabelFrame pour l'espace de travail
 # lframe = ctk.CTkFrame(fen, corner_radius=10)
