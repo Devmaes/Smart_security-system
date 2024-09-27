@@ -146,3 +146,391 @@ Nom: Samuel Eto'o, Score: 60.13%, Enregistré le: 24/09/2024 à 11:36:59
 Nom: intrus !, Score: 58.18%, Enregistré le: 24/09/2024 à 11:37:00
 Nom: intrus !, Score: 56.48%, Enregistré le: 24/09/2024 à 11:37:01
 Nom: intrus !, Score: 55.94%, Enregistré le: 24/09/2024 à 11:37:01
+Nom: intrus !, Score: 48.17%, Enregistrer le: 24/09/2024 à 13:24:35
+Nom: intrus !, Score: 49.44%, Enregistrer le: 24/09/2024 à 13:24:36
+Nom: intrus !, Score: 48.04%, Enregistrer le: 24/09/2024 à 13:24:37
+Nom: intrus !, Score: 46.36%, Enregistrer le: 24/09/2024 à 13:24:38
+Nom: intrus !, Score: 48.86%, Enregistrer le: 24/09/2024 à 13:24:39
+Nom: intrus !, Score: 49.78%, Enregistrer le: 24/09/2024 à 13:24:41
+Nom: intrus !, Score: 52.54%, Enregistrer le: 24/09/2024 à 13:24:42
+Nom: intrus !, Score: 51.0%, Enregistrer le: 24/09/2024 à 13:24:43
+Nom: intrus !, Score: 49.75%, Enregistrer le: 24/09/2024 à 13:24:44
+Nom: intrus !, Score: 50.89%, Enregistrer le: 24/09/2024 à 13:24:45
+Nom: intrus !, Score: 50.81%, Enregistrer le: 24/09/2024 à 13:24:46
+Nom: intrus !, Score: 49.47%, Enregistrer le: 24/09/2024 à 13:24:47
+Nom: intrus !, Score: 49.53%, Enregistrer le: 24/09/2024 à 13:24:49
+Nom: intrus !, Score: 49.27%, Enregistrer le: 24/09/2024 à 13:24:50
+Nom: intrus !, Score: 50.89%, Enregistrer le: 24/09/2024 à 13:24:51
+Nom: intrus !, Score: 48.23%, Enregistrer le: 24/09/2024 à 13:24:52
+Nom: intrus !, Score: 48.72%, Enregistrer le: 24/09/2024 à 13:24:53
+Nom: intrus !, Score: 47.5%, Enregistrer le: 24/09/2024 à 13:24:54
+Nom: intrus !, Score: 47.64%, Enregistrer le: 24/09/2024 à 13:24:55
+Nom: intrus !, Score: 46.75%, Enregistrer le: 24/09/2024 à 13:24:57
+Nom: intrus !, Score: 46.71%, Enregistrer le: 24/09/2024 à 13:24:58
+Nom: intrus !, Score: 48.03%, Enregistrer le: 24/09/2024 à 13:24:59
+Nom: intrus !, Score: 47.61%, Enregistrer le: 24/09/2024 à 13:25:00
+Nom: intrus !, Score: 48.19%, Enregistrer le: 24/09/2024 à 13:25:01
+Nom: intrus !, Score: 49.76%, Enregistrer le: 24/09/2024 à 13:25:02
+Nom: intrus !, Score: 50.03%, Enregistrer le: 24/09/2024 à 13:25:03
+Nom: intrus !, Score: 47.8%, Enregistrer le: 24/09/2024 à 13:25:04
+Nom: intrus !, Score: 53.29%, Enregistrer le: 24/09/2024 à 13:25:06
+Nom: intrus !, Score: 50.92%, Enregistrer le: 24/09/2024 à 13:25:07
+Nom: intrus !, Score: 46.06%, Enregistrer le: 24/09/2024 à 13:25:12
+Nom: Julios, Score: 60.89%, Enregistrer le: 24/09/2024 à 13:30:45
+Nom: Julios, Score: 62.1%, Enregistrer le: 24/09/2024 à 13:30:46
+Nom: intrus !, Score: 51.94%, Enregistrer le: 24/09/2024 à 13:30:53
+Nom: intrus !, Score: 48.7%, Enregistrer le: 24/09/2024 à 13:30:56
+Nom: intrus !, Score: 53.92%, Enregistrer le: 24/09/2024 à 13:31:51
+Nom: intrus !, Score: 48.4%, Enregistrer le: 24/09/2024 à 13:31:53
+Nom: intrus !, Score: 48.37%, Enregistrer le: 24/09/2024 à 13:31:54
+Nom: intrus !, Score: 51.61%, Enregistrer le: 24/09/2024 à 13:31:55
+Nom: intrus !, Score: 47.41%, Enregistrer le: 24/09/2024 à 13:31:57
+Nom: Julios, Score: 61.21%, Enregistrer le: 24/09/2024 à 13:31:57
+Nom: intrus !, Score: 47.72%, Enregistrer le: 24/09/2024 à 13:31:59
+Nom: Julios, Score: 59.86%, Enregistrer le: 24/09/2024 à 13:31:59
+Nom: intrus !, Score: 49.85%, Enregistrer le: 24/09/2024 à 13:32:00
+Nom: intrus !, Score: 50.81%, Enregistrer le: 24/09/2024 à 13:32:01
+Nom: intrus !, Score: 49.62%, Enregistrer le: 24/09/2024 à 13:32:02
+Nom: intrus !, Score: 48.69%, Enregistrer le: 24/09/2024 à 13:32:03
+Nom: intrus !, Score: 47.46%, Enregistrer le: 24/09/2024 à 13:32:05
+Nom: intrus !, Score: 56.28%, Enregistrer le: 24/09/2024 à 13:32:05
+Nom: Julios, Score: 60.06%, Enregistrer le: 24/09/2024 à 13:32:06
+Nom: intrus !, Score: 58.6%, Enregistrer le: 24/09/2024 à 13:32:07
+Nom: intrus !, Score: 46.71%, Enregistrer le: 24/09/2024 à 13:32:12
+Nom: Julios, Score: 67.0%, Enregistrer le: 24/09/2024 à 13:32:13
+Nom: Julios, Score: 62.37%, Enregistrer le: 24/09/2024 à 13:32:17
+Nom: Julios, Score: 62.19%, Enregistrer le: 24/09/2024 à 13:32:20
+Nom: Julios, Score: 64.27%, Enregistrer le: 24/09/2024 à 13:32:21
+Nom: Julios, Score: 59.06%, Enregistrer le: 24/09/2024 à 13:32:26
+Nom: Julios, Score: 61.87%, Enregistrer le: 24/09/2024 à 13:32:27
+Nom: Julios, Score: 63.22%, Enregistrer le: 24/09/2024 à 13:32:28
+Nom: Julios, Score: 63.24%, Enregistrer le: 24/09/2024 à 13:32:29
+Nom: Julios, Score: 63.22%, Enregistrer le: 24/09/2024 à 13:32:30
+Nom: Julios, Score: 62.87%, Enregistrer le: 24/09/2024 à 13:32:31
+Nom: Julios, Score: 64.76%, Enregistrer le: 24/09/2024 à 13:32:32
+Nom: Julios, Score: 60.14%, Enregistrer le: 24/09/2024 à 13:32:35
+Nom: Julios, Score: 59.63%, Enregistrer le: 24/09/2024 à 13:32:36
+Nom: Julios, Score: 63.87%, Enregistrer le: 24/09/2024 à 13:32:37
+Nom: Julios, Score: 59.12%, Enregistrer le: 24/09/2024 à 13:32:39
+Nom: Julios, Score: 64.38%, Enregistrer le: 24/09/2024 à 13:32:40
+Nom: Julios, Score: 64.58%, Enregistrer le: 24/09/2024 à 13:32:41
+Nom: Julios, Score: 61.7%, Enregistrer le: 24/09/2024 à 13:32:42
+Nom: Julios, Score: 62.39%, Enregistrer le: 24/09/2024 à 13:32:43
+Nom: Julios, Score: 65.38%, Enregistrer le: 24/09/2024 à 13:32:44
+Nom: Julios, Score: 64.66%, Enregistrer le: 24/09/2024 à 13:32:46
+Nom: Julios, Score: 64.19%, Enregistrer le: 24/09/2024 à 13:32:47
+Nom: Julios, Score: 66.99%, Enregistrer le: 24/09/2024 à 13:32:49
+Nom: intrus !, Score: 58.65%, Enregistrer le: 24/09/2024 à 13:32:50
+Nom: Julios, Score: 62.24%, Enregistrer le: 24/09/2024 à 13:32:51
+Nom: Julios, Score: 62.97%, Enregistrer le: 24/09/2024 à 13:32:52
+Nom: Julios, Score: 64.67%, Enregistrer le: 24/09/2024 à 13:32:53
+Nom: Julios, Score: 59.35%, Enregistrer le: 24/09/2024 à 13:32:54
+Nom: Julios, Score: 60.16%, Enregistrer le: 24/09/2024 à 13:32:56
+Nom: Julios, Score: 63.85%, Enregistrer le: 24/09/2024 à 13:32:57
+Nom: Julios, Score: 63.09%, Enregistrer le: 24/09/2024 à 13:32:58
+Nom: Julios, Score: 62.43%, Enregistrer le: 24/09/2024 à 13:32:59
+Nom: Julios, Score: 61.54%, Enregistrer le: 24/09/2024 à 13:33:00
+Nom: Julios, Score: 64.21%, Enregistrer le: 24/09/2024 à 13:33:01
+Nom: Julios, Score: 61.44%, Enregistrer le: 24/09/2024 à 13:33:02
+Nom: Julios, Score: 63.94%, Enregistrer le: 24/09/2024 à 13:33:03
+Nom: Julios, Score: 61.24%, Enregistrer le: 24/09/2024 à 13:33:05
+Nom: Julios, Score: 62.91%, Enregistrer le: 24/09/2024 à 13:33:06
+Nom: Julios, Score: 62.26%, Enregistrer le: 24/09/2024 à 13:33:07
+Nom: Julios, Score: 68.25%, Enregistrer le: 24/09/2024 à 13:33:08
+Nom: Julios, Score: 61.28%, Enregistrer le: 24/09/2024 à 13:33:10
+Nom: Julios, Score: 60.35%, Enregistrer le: 24/09/2024 à 13:33:11
+Nom: Julios, Score: 60.28%, Enregistrer le: 24/09/2024 à 13:33:12
+Nom: intrus !, Score: 58.34%, Enregistrer le: 24/09/2024 à 13:33:13
+Nom: intrus !, Score: 54.99%, Enregistrer le: 24/09/2024 à 13:33:14
+Nom: Julios, Score: 61.76%, Enregistrer le: 24/09/2024 à 13:33:15
+Nom: Julios, Score: 61.67%, Enregistrer le: 24/09/2024 à 13:33:16
+Nom: Julios, Score: 63.1%, Enregistrer le: 24/09/2024 à 13:33:17
+Nom: Julios, Score: 62.0%, Enregistrer le: 24/09/2024 à 13:33:18
+Nom: Julios, Score: 60.46%, Enregistrer le: 24/09/2024 à 13:33:19
+Nom: Julios, Score: 62.76%, Enregistrer le: 24/09/2024 à 13:33:20
+Nom: Julios, Score: 61.44%, Enregistrer le: 24/09/2024 à 13:33:21
+Nom: Julios, Score: 62.46%, Enregistrer le: 24/09/2024 à 13:33:22
+Nom: Julios, Score: 60.78%, Enregistrer le: 24/09/2024 à 13:33:24
+Nom: Julios, Score: 60.94%, Enregistrer le: 24/09/2024 à 13:33:25
+Nom: Julios, Score: 60.28%, Enregistrer le: 24/09/2024 à 13:33:26
+Nom: Julios, Score: 61.01%, Enregistrer le: 24/09/2024 à 13:33:27
+Nom: Julios, Score: 62.15%, Enregistrer le: 24/09/2024 à 13:33:28
+Nom: Julios, Score: 61.36%, Enregistrer le: 24/09/2024 à 13:33:29
+Nom: Julios, Score: 61.35%, Enregistrer le: 24/09/2024 à 13:33:30
+Nom: Julios, Score: 60.22%, Enregistrer le: 24/09/2024 à 13:33:31
+Nom: Julios, Score: 63.35%, Enregistrer le: 24/09/2024 à 13:33:32
+Nom: Julios, Score: 61.18%, Enregistrer le: 24/09/2024 à 13:33:33
+Nom: Julios, Score: 59.69%, Enregistrer le: 24/09/2024 à 13:33:35
+Nom: Julios, Score: 65.57%, Enregistrer le: 24/09/2024 à 13:33:36
+Nom: Julios, Score: 65.05%, Enregistrer le: 24/09/2024 à 13:33:37
+Nom: Julios, Score: 64.62%, Enregistrer le: 24/09/2024 à 13:33:38
+Nom: Julios, Score: 65.69%, Enregistrer le: 24/09/2024 à 13:33:40
+Nom: Julios, Score: 64.95%, Enregistrer le: 24/09/2024 à 13:33:41
+Nom: Julios, Score: 64.94%, Enregistrer le: 24/09/2024 à 13:33:42
+Nom: Julios, Score: 68.14%, Enregistrer le: 24/09/2024 à 13:33:43
+Nom: Julios, Score: 67.09%, Enregistrer le: 24/09/2024 à 13:33:44
+Nom: Julios, Score: 64.9%, Enregistrer le: 24/09/2024 à 13:33:45
+Nom: Julios, Score: 67.42%, Enregistrer le: 24/09/2024 à 13:33:46
+Nom: Julios, Score: 65.3%, Enregistrer le: 24/09/2024 à 13:33:47
+Nom: Julios, Score: 65.02%, Enregistrer le: 24/09/2024 à 13:33:48
+Nom: Julios, Score: 64.57%, Enregistrer le: 24/09/2024 à 13:33:50
+Nom: Julios, Score: 62.67%, Enregistrer le: 24/09/2024 à 13:33:51
+Nom: Julios, Score: 62.65%, Enregistrer le: 24/09/2024 à 13:33:52
+Nom: Julios, Score: 66.25%, Enregistrer le: 24/09/2024 à 13:33:53
+Nom: Julios, Score: 63.06%, Enregistrer le: 24/09/2024 à 13:33:54
+Nom: Julios, Score: 65.75%, Enregistrer le: 24/09/2024 à 13:33:55
+Nom: Julios, Score: 64.74%, Enregistrer le: 24/09/2024 à 13:33:56
+Nom: Julios, Score: 61.95%, Enregistrer le: 24/09/2024 à 13:33:57
+Nom: Julios, Score: 65.52%, Enregistrer le: 24/09/2024 à 13:33:59
+Nom: Julios, Score: 63.69%, Enregistrer le: 24/09/2024 à 13:34:00
+Nom: Julios, Score: 64.43%, Enregistrer le: 24/09/2024 à 13:34:01
+Nom: Julios, Score: 64.89%, Enregistrer le: 24/09/2024 à 13:34:02
+Nom: Julios, Score: 62.58%, Enregistrer le: 24/09/2024 à 13:34:03
+Nom: Julios, Score: 63.78%, Enregistrer le: 24/09/2024 à 13:34:04
+Nom: Julios, Score: 62.59%, Enregistrer le: 24/09/2024 à 13:34:05
+Nom: Julios, Score: 63.32%, Enregistrer le: 24/09/2024 à 13:34:06
+Nom: Julios, Score: 62.04%, Enregistrer le: 24/09/2024 à 13:34:07
+Nom: Julios, Score: 63.27%, Enregistrer le: 24/09/2024 à 13:34:08
+Nom: intrus !, Score: 55.65%, Enregistrer le: 24/09/2024 à 13:34:09
+Nom: Julios, Score: 64.11%, Enregistrer le: 24/09/2024 à 13:34:10
+Nom: Julios, Score: 65.09%, Enregistrer le: 24/09/2024 à 13:34:11
+Nom: Julios, Score: 64.84%, Enregistrer le: 24/09/2024 à 13:34:12
+Nom: Julios, Score: 64.77%, Enregistrer le: 24/09/2024 à 13:34:14
+Nom: Julios, Score: 64.59%, Enregistrer le: 24/09/2024 à 13:34:15
+Nom: Julios, Score: 62.25%, Enregistrer le: 24/09/2024 à 13:34:16
+Nom: Julios, Score: 62.28%, Enregistrer le: 24/09/2024 à 13:34:17
+Nom: Julios, Score: 63.32%, Enregistrer le: 24/09/2024 à 13:34:18
+Nom: Julios, Score: 63.14%, Enregistrer le: 24/09/2024 à 13:34:19
+Nom: Julios, Score: 63.05%, Enregistrer le: 24/09/2024 à 13:34:20
+Nom: Julios, Score: 64.26%, Enregistrer le: 24/09/2024 à 13:34:21
+Nom: Julios, Score: 64.14%, Enregistrer le: 24/09/2024 à 13:34:22
+Nom: Julios, Score: 63.19%, Enregistrer le: 24/09/2024 à 13:34:23
+Nom: Julios, Score: 64.17%, Enregistrer le: 24/09/2024 à 13:34:24
+Nom: Julios, Score: 64.18%, Enregistrer le: 24/09/2024 à 13:34:25
+Nom: Julios, Score: 62.91%, Enregistrer le: 24/09/2024 à 13:34:26
+Nom: Julios, Score: 64.25%, Enregistrer le: 24/09/2024 à 13:34:27
+Nom: Julios, Score: 63.13%, Enregistrer le: 24/09/2024 à 13:34:28
+Nom: Julios, Score: 62.5%, Enregistrer le: 24/09/2024 à 13:34:29
+Nom: Julios, Score: 61.12%, Enregistrer le: 24/09/2024 à 13:34:30
+Nom: Julios, Score: 64.3%, Enregistrer le: 24/09/2024 à 13:34:32
+Nom: Julios, Score: 62.73%, Enregistrer le: 24/09/2024 à 13:34:33
+Nom: Julios, Score: 63.5%, Enregistrer le: 24/09/2024 à 13:34:34
+Nom: Julios, Score: 65.06%, Enregistrer le: 24/09/2024 à 13:34:35
+Nom: Julios, Score: 65.76%, Enregistrer le: 24/09/2024 à 13:34:36
+Nom: Julios, Score: 62.92%, Enregistrer le: 24/09/2024 à 13:34:37
+Nom: Julios, Score: 64.44%, Enregistrer le: 24/09/2024 à 13:34:38
+Nom: Julios, Score: 64.5%, Enregistrer le: 24/09/2024 à 13:34:39
+Nom: Julios, Score: 65.39%, Enregistrer le: 24/09/2024 à 13:34:40
+Nom: Julios, Score: 65.43%, Enregistrer le: 24/09/2024 à 13:34:41
+Nom: Julios, Score: 64.77%, Enregistrer le: 24/09/2024 à 13:34:42
+Nom: Julios, Score: 62.21%, Enregistrer le: 24/09/2024 à 13:34:43
+Nom: Julios, Score: 61.42%, Enregistrer le: 24/09/2024 à 13:34:44
+Nom: Julios, Score: 60.35%, Enregistrer le: 24/09/2024 à 13:34:45
+Nom: Julios, Score: 60.85%, Enregistrer le: 24/09/2024 à 13:34:46
+Nom: Julios, Score: 64.94%, Enregistrer le: 24/09/2024 à 13:34:47
+Nom: Julios, Score: 64.58%, Enregistrer le: 24/09/2024 à 13:34:49
+Nom: Julios, Score: 61.33%, Enregistrer le: 24/09/2024 à 13:34:50
+Nom: Julios, Score: 66.03%, Enregistrer le: 24/09/2024 à 13:34:51
+Nom: Julios, Score: 61.6%, Enregistrer le: 24/09/2024 à 13:34:52
+Nom: Julios, Score: 60.84%, Enregistrer le: 24/09/2024 à 13:34:53
+Nom: Julios, Score: 62.54%, Enregistrer le: 24/09/2024 à 13:34:54
+Nom: Julios, Score: 65.76%, Enregistrer le: 24/09/2024 à 13:34:55
+Nom: Julios, Score: 63.54%, Enregistrer le: 24/09/2024 à 13:34:56
+Nom: Julios, Score: 62.68%, Enregistrer le: 24/09/2024 à 13:34:57
+Nom: Julios, Score: 65.37%, Enregistrer le: 24/09/2024 à 13:34:58
+Nom: Julios, Score: 63.84%, Enregistrer le: 24/09/2024 à 13:35:00
+Nom: Julios, Score: 64.34%, Enregistrer le: 24/09/2024 à 13:35:01
+Nom: Julios, Score: 63.63%, Enregistrer le: 24/09/2024 à 13:35:02
+Nom: Julios, Score: 63.31%, Enregistrer le: 24/09/2024 à 13:35:03
+Nom: Julios, Score: 62.91%, Enregistrer le: 24/09/2024 à 13:35:04
+Nom: intrus !, Score: 57.18%, Enregistrer le: 24/09/2024 à 13:35:06
+Nom: Julios, Score: 63.08%, Enregistrer le: 24/09/2024 à 13:35:07
+Nom: Julios, Score: 62.65%, Enregistrer le: 24/09/2024 à 13:35:08
+Nom: Julios, Score: 61.94%, Enregistrer le: 24/09/2024 à 13:35:09
+Nom: Julios, Score: 63.52%, Enregistrer le: 24/09/2024 à 13:35:10
+Nom: Julios, Score: 63.92%, Enregistrer le: 24/09/2024 à 13:35:11
+Nom: Julios, Score: 62.12%, Enregistrer le: 24/09/2024 à 13:35:12
+Nom: Julios, Score: 62.47%, Enregistrer le: 24/09/2024 à 13:35:13
+Nom: Julios, Score: 61.9%, Enregistrer le: 24/09/2024 à 13:35:14
+Nom: Julios, Score: 62.34%, Enregistrer le: 24/09/2024 à 13:35:15
+Nom: Julios, Score: 61.48%, Enregistrer le: 24/09/2024 à 13:35:16
+Nom: Julios, Score: 63.32%, Enregistrer le: 24/09/2024 à 13:35:18
+Nom: Julios, Score: 64.53%, Enregistrer le: 24/09/2024 à 13:35:19
+Nom: Julios, Score: 63.79%, Enregistrer le: 24/09/2024 à 13:35:20
+Nom: Julios, Score: 61.93%, Enregistrer le: 24/09/2024 à 13:35:21
+Nom: Julios, Score: 62.6%, Enregistrer le: 24/09/2024 à 13:35:22
+Nom: Julios, Score: 63.19%, Enregistrer le: 24/09/2024 à 13:35:23
+Nom: Julios, Score: 62.74%, Enregistrer le: 24/09/2024 à 13:35:24
+Nom: Julios, Score: 63.96%, Enregistrer le: 24/09/2024 à 13:35:25
+Nom: Julios, Score: 61.57%, Enregistrer le: 24/09/2024 à 13:35:26
+Nom: Julios, Score: 61.75%, Enregistrer le: 24/09/2024 à 13:35:27
+Nom: Julios, Score: 63.14%, Enregistrer le: 24/09/2024 à 13:35:29
+Nom: Julios, Score: 62.74%, Enregistrer le: 24/09/2024 à 13:35:30
+Nom: Julios, Score: 64.71%, Enregistrer le: 24/09/2024 à 13:35:31
+Nom: Julios, Score: 62.45%, Enregistrer le: 24/09/2024 à 13:35:32
+Nom: Julios, Score: 65.65%, Enregistrer le: 24/09/2024 à 13:35:33
+Nom: intrus !, Score: 54.06%, Enregistrer le: 24/09/2024 à 13:35:34
+Nom: Julios, Score: 65.1%, Enregistrer le: 24/09/2024 à 13:35:35
+Nom: Julios, Score: 61.41%, Enregistrer le: 24/09/2024 à 13:35:36
+Nom: Julios, Score: 64.33%, Enregistrer le: 24/09/2024 à 13:35:37
+Nom: Julios, Score: 63.06%, Enregistrer le: 24/09/2024 à 13:35:38
+Nom: Julios, Score: 62.31%, Enregistrer le: 24/09/2024 à 13:35:39
+Nom: Julios, Score: 64.2%, Enregistrer le: 24/09/2024 à 13:35:40
+Nom: Julios, Score: 63.19%, Enregistrer le: 24/09/2024 à 13:35:41
+Nom: Julios, Score: 63.02%, Enregistrer le: 24/09/2024 à 13:35:42
+Nom: Julios, Score: 61.08%, Enregistrer le: 24/09/2024 à 13:35:43
+Nom: Julios, Score: 62.61%, Enregistrer le: 24/09/2024 à 13:35:44
+Nom: Julios, Score: 62.47%, Enregistrer le: 24/09/2024 à 13:35:45
+Nom: Julios, Score: 63.44%, Enregistrer le: 24/09/2024 à 13:35:47
+Nom: Julios, Score: 61.38%, Enregistrer le: 24/09/2024 à 13:35:48
+Nom: Julios, Score: 63.0%, Enregistrer le: 24/09/2024 à 13:35:49
+Nom: Julios, Score: 62.92%, Enregistrer le: 24/09/2024 à 13:35:50
+Nom: Julios, Score: 63.11%, Enregistrer le: 24/09/2024 à 13:35:51
+Nom: Julios, Score: 61.51%, Enregistrer le: 24/09/2024 à 13:35:52
+Nom: Julios, Score: 62.45%, Enregistrer le: 24/09/2024 à 13:35:53
+Nom: Julios, Score: 62.94%, Enregistrer le: 24/09/2024 à 13:35:54
+Nom: Julios, Score: 63.46%, Enregistrer le: 24/09/2024 à 13:35:55
+Nom: Julios, Score: 62.61%, Enregistrer le: 24/09/2024 à 13:35:56
+Nom: Julios, Score: 61.88%, Enregistrer le: 24/09/2024 à 13:35:57
+Nom: Julios, Score: 61.58%, Enregistrer le: 24/09/2024 à 13:35:58
+Nom: Julios, Score: 65.98%, Enregistrer le: 24/09/2024 à 13:35:59
+Nom: Julios, Score: 64.38%, Enregistrer le: 24/09/2024 à 13:36:00
+Nom: Julios, Score: 63.9%, Enregistrer le: 24/09/2024 à 13:36:01
+Nom: Julios, Score: 61.59%, Enregistrer le: 24/09/2024 à 13:36:03
+Nom: Julios, Score: 59.87%, Enregistrer le: 24/09/2024 à 13:36:04
+Nom: Julios, Score: 63.64%, Enregistrer le: 24/09/2024 à 13:36:05
+Nom: Julios, Score: 62.25%, Enregistrer le: 24/09/2024 à 13:36:06
+Nom: Julios, Score: 61.96%, Enregistrer le: 24/09/2024 à 13:36:07
+Nom: Julios, Score: 61.43%, Enregistrer le: 24/09/2024 à 13:36:08
+Nom: Julios, Score: 60.83%, Enregistrer le: 24/09/2024 à 13:36:09
+Nom: Julios, Score: 64.14%, Enregistrer le: 24/09/2024 à 13:36:10
+Nom: Julios, Score: 65.31%, Enregistrer le: 24/09/2024 à 13:36:11
+Nom: Julios, Score: 63.13%, Enregistrer le: 24/09/2024 à 13:36:14
+Nom: Julios, Score: 64.86%, Enregistrer le: 24/09/2024 à 13:36:16
+Nom: intrus !, Score: 56.91%, Enregistrer le: 24/09/2024 à 13:36:18
+Nom: Julios, Score: 67.72%, Enregistrer le: 24/09/2024 à 13:36:19
+Nom: Julios, Score: 63.21%, Enregistrer le: 24/09/2024 à 13:36:20
+Nom: Julios, Score: 68.71%, Enregistrer le: 24/09/2024 à 13:36:26
+Nom: Julios, Score: 64.92%, Enregistrer le: 24/09/2024 à 13:36:27
+Nom: Julios, Score: 64.7%, Enregistrer le: 24/09/2024 à 13:36:28
+Nom: Julios, Score: 64.9%, Enregistrer le: 24/09/2024 à 13:36:29
+Nom: Julios, Score: 64.82%, Enregistrer le: 24/09/2024 à 13:36:30
+Nom: Julios, Score: 64.39%, Enregistrer le: 24/09/2024 à 13:36:32
+Nom: Julios, Score: 62.66%, Enregistrer le: 24/09/2024 à 13:36:33
+Nom: Julios, Score: 61.85%, Enregistrer le: 24/09/2024 à 13:36:34
+Nom: intrus !, Score: 45.25%, Enregistrer le: 24/09/2024 à 14:40:30
+Nom: intrus !, Score: 47.24%, Enregistrer le: 24/09/2024 à 14:41:07
+Nom: intrus !, Score: 51.43%, Enregistrer le: 24/09/2024 à 14:41:10
+Nom: Julios, Score: 68.64%, Enregistrer le: 24/09/2024 à 14:42:15
+Nom: Julios, Score: 68.56%, Enregistrer le: 24/09/2024 à 14:42:16
+Nom: Julios, Score: 68.82%, Enregistrer le: 24/09/2024 à 14:42:17
+Nom: Julios, Score: 66.74%, Enregistrer le: 24/09/2024 à 14:42:18
+Nom: Julios, Score: 66.88%, Enregistrer le: 24/09/2024 à 14:42:19
+Nom: intrus !, Score: 52.84%, Enregistrer le: 24/09/2024 à 14:42:27
+Nom: intrus !, Score: 47.61%, Enregistrer le: 24/09/2024 à 14:42:55
+Nom: intrus !, Score: 47.62%, Enregistrer le: 24/09/2024 à 14:43:02
+Nom: intrus !, Score: 51.97%, Enregistrer le: 24/09/2024 à 14:43:03
+Nom: intrus !, Score: 46.66%, Enregistrer le: 24/09/2024 à 14:43:10
+Nom: intrus !, Score: 45.65%, Enregistrer le: 24/09/2024 à 14:43:13
+Nom: intrus !, Score: 47.72%, Enregistrer le: 24/09/2024 à 14:43:15
+Nom: intrus !, Score: 45.71%, Enregistrer le: 24/09/2024 à 14:43:28
+Nom: intrus !, Score: 56.42%, Enregistrer le: 24/09/2024 à 14:43:32
+Nom: intrus !, Score: 53.53%, Enregistrer le: 24/09/2024 à 14:43:39
+Nom: intrus !, Score: 46.65%, Enregistrer le: 24/09/2024 à 14:43:41
+Nom: intrus !, Score: 50.02%, Enregistrer le: 24/09/2024 à 14:43:53
+Nom: Julios, Score: 67.75%, Enregistrer le: 24/09/2024 à 14:43:59
+Nom: Julios, Score: 69.16%, Enregistrer le: 24/09/2024 à 14:44:00
+Nom: Julios, Score: 70.05%, Enregistrer le: 24/09/2024 à 14:44:01
+Nom: Julios, Score: 69.62%, Enregistrer le: 24/09/2024 à 14:44:02
+Nom: Julios, Score: 69.6%, Enregistrer le: 24/09/2024 à 14:44:03
+Nom: Julios, Score: 68.9%, Enregistrer le: 24/09/2024 à 14:44:04
+Nom: Julios, Score: 68.65%, Enregistrer le: 24/09/2024 à 14:44:05
+Nom: Julios, Score: 70.79%, Enregistrer le: 24/09/2024 à 14:44:05
+Nom: Julios, Score: 65.74%, Enregistrer le: 24/09/2024 à 14:44:06
+Nom: Julios, Score: 69.23%, Enregistrer le: 24/09/2024 à 14:44:07
+Nom: Julios, Score: 68.13%, Enregistrer le: 24/09/2024 à 14:44:08
+Nom: Julios, Score: 71.71%, Enregistrer le: 24/09/2024 à 14:44:09
+Nom: Julios, Score: 67.12%, Enregistrer le: 24/09/2024 à 14:44:10
+Nom: Julios, Score: 64.29%, Enregistrer le: 24/09/2024 à 14:44:12
+Nom: Julios, Score: 64.17%, Enregistrer le: 24/09/2024 à 14:44:16
+Nom: Julios, Score: 66.54%, Enregistrer le: 24/09/2024 à 14:44:17
+Nom: Julios, Score: 59.07%, Enregistrer le: 24/09/2024 à 14:44:18
+Nom: Julios, Score: 67.57%, Enregistrer le: 24/09/2024 à 14:44:19
+Nom: Julios, Score: 68.5%, Enregistrer le: 24/09/2024 à 14:44:20
+Nom: Julios, Score: 67.26%, Enregistrer le: 24/09/2024 à 14:44:21
+Nom: Julios, Score: 67.88%, Enregistrer le: 24/09/2024 à 14:44:22
+Nom: Julios, Score: 66.89%, Enregistrer le: 24/09/2024 à 14:44:23
+Nom: intrus !, Score: 47.19%, Enregistrer le: 24/09/2024 à 14:44:26
+Nom: Julios, Score: 64.98%, Enregistrer le: 24/09/2024 à 14:44:27
+Nom: intrus !, Score: 48.28%, Enregistrer le: 24/09/2024 à 14:44:27
+Nom: Julios, Score: 66.45%, Enregistrer le: 24/09/2024 à 14:44:29
+Nom: Julios, Score: 63.46%, Enregistrer le: 24/09/2024 à 14:44:30
+Nom: Julios, Score: 66.83%, Enregistrer le: 24/09/2024 à 14:44:31
+Nom: Julios, Score: 62.8%, Enregistrer le: 24/09/2024 à 14:44:32
+Nom: intrus !, Score: 54.05%, Enregistrer le: 24/09/2024 à 14:44:33
+Nom: intrus !, Score: 49.36%, Enregistrer le: 24/09/2024 à 14:44:34
+Nom: intrus !, Score: 53.59%, Enregistrer le: 24/09/2024 à 14:44:35
+Nom: intrus !, Score: 56.36%, Enregistrer le: 24/09/2024 à 14:44:36
+Nom: Julios, Score: 65.67%, Enregistrer le: 24/09/2024 à 14:44:37
+Nom: intrus !, Score: 51.82%, Enregistrer le: 24/09/2024 à 14:44:38
+Nom: intrus !, Score: 47.66%, Enregistrer le: 24/09/2024 à 14:44:42
+Nom: intrus !, Score: 49.62%, Enregistrer le: 24/09/2024 à 14:44:43
+Nom: intrus !, Score: 46.91%, Enregistrer le: 24/09/2024 à 14:44:44
+Nom: intrus !, Score: 47.98%, Enregistrer le: 24/09/2024 à 14:44:45
+Nom: intrus !, Score: 46.67%, Enregistrer le: 24/09/2024 à 14:44:45
+Nom: intrus !, Score: 45.42%, Enregistrer le: 24/09/2024 à 14:44:46
+Nom: intrus !, Score: 47.71%, Enregistrer le: 24/09/2024 à 14:44:47
+Nom: intrus !, Score: 46.57%, Enregistrer le: 24/09/2024 à 14:44:48
+Nom: intrus !, Score: 45.99%, Enregistrer le: 24/09/2024 à 14:44:49
+Nom: Julios, Score: 63.42%, Enregistrer le: 24/09/2024 à 14:44:52
+Nom: Julios, Score: 64.19%, Enregistrer le: 24/09/2024 à 14:44:53
+Nom: Julios, Score: 66.06%, Enregistrer le: 24/09/2024 à 14:44:54
+Nom: Julios, Score: 65.91%, Enregistrer le: 24/09/2024 à 14:44:55
+Nom: Julios, Score: 66.62%, Enregistrer le: 24/09/2024 à 14:44:56
+Nom: Julios, Score: 64.97%, Enregistrer le: 24/09/2024 à 14:44:56
+Nom: Julios, Score: 65.57%, Enregistrer le: 24/09/2024 à 14:44:57
+Nom: Julios, Score: 68.96%, Enregistrer le: 24/09/2024 à 14:44:58
+Nom: Julios, Score: 59.67%, Enregistrer le: 24/09/2024 à 14:44:59
+Nom: Julios, Score: 66.53%, Enregistrer le: 24/09/2024 à 14:45:00
+Nom: Julios, Score: 65.67%, Enregistrer le: 24/09/2024 à 14:45:01
+Nom: Julios, Score: 64.12%, Enregistrer le: 24/09/2024 à 14:45:02
+Nom: Julios, Score: 64.99%, Enregistrer le: 24/09/2024 à 14:45:03
+Nom: Julios, Score: 65.63%, Enregistrer le: 24/09/2024 à 14:45:04
+Nom: Julios, Score: 65.09%, Enregistrer le: 24/09/2024 à 14:45:04
+Nom: Julios, Score: 65.24%, Enregistrer le: 24/09/2024 à 14:45:05
+Nom: Julios, Score: 64.85%, Enregistrer le: 24/09/2024 à 14:45:06
+Nom: intrus !, Score: 55.19%, Enregistrer le: 24/09/2024 à 14:45:10
+Nom: Julios, Score: 65.8%, Enregistrer le: 24/09/2024 à 14:45:11
+Nom: Julios, Score: 68.76%, Enregistrer le: 24/09/2024 à 14:45:11
+Nom: Julios, Score: 67.38%, Enregistrer le: 24/09/2024 à 14:45:13
+Nom: Julios, Score: 69.58%, Enregistrer le: 24/09/2024 à 14:45:14
+Nom: Julios, Score: 68.14%, Enregistrer le: 24/09/2024 à 14:45:15
+Nom: Julios, Score: 67.65%, Enregistrer le: 24/09/2024 à 14:45:15
+Nom: intrus !, Score: 48.36%, Enregistrer le: 24/09/2024 à 14:46:38
+Nom: intrus !, Score: 46.2%, Enregistrer le: 24/09/2024 à 14:46:41
+Nom: intrus !, Score: 49.0%, Enregistrer le: 24/09/2024 à 14:46:42
+Nom: intrus !, Score: 51.05%, Enregistrer le: 24/09/2024 à 14:46:43
+Nom: intrus !, Score: 53.09%, Enregistrer le: 24/09/2024 à 14:46:44
+Nom: intrus !, Score: 49.9%, Enregistrer le: 24/09/2024 à 14:46:45
+Nom: intrus !, Score: 48.61%, Enregistrer le: 24/09/2024 à 14:46:46
+Nom: intrus !, Score: 48.23%, Enregistrer le: 24/09/2024 à 14:46:47
+Nom: intrus !, Score: 47.72%, Enregistrer le: 24/09/2024 à 14:46:47
+Nom: intrus !, Score: 47.78%, Enregistrer le: 24/09/2024 à 14:46:48
+Nom: intrus !, Score: 48.18%, Enregistrer le: 24/09/2024 à 14:46:49
+Nom: intrus !, Score: 48.73%, Enregistrer le: 24/09/2024 à 14:46:50
+Nom: intrus !, Score: 48.29%, Enregistrer le: 24/09/2024 à 14:46:51
+Nom: intrus !, Score: 49.61%, Enregistrer le: 24/09/2024 à 14:46:52
+Nom: intrus !, Score: 49.66%, Enregistrer le: 24/09/2024 à 14:46:53
+Nom: intrus !, Score: 47.98%, Enregistrer le: 24/09/2024 à 14:46:54
+Nom: intrus !, Score: 49.54%, Enregistrer le: 24/09/2024 à 14:46:55
+Nom: Julios, Score: 64.9%, Enregistrer le: 24/09/2024 à 14:47:57
+Nom: intrus !, Score: 57.95%, Enregistrer le: 24/09/2024 à 14:48:02
+Nom: Julios, Score: 60.15%, Enregistrer le: 24/09/2024 à 14:48:03
+Nom: Julios, Score: 62.16%, Enregistrer le: 24/09/2024 à 14:48:04
+Nom: Julios, Score: 62.81%, Enregistrer le: 24/09/2024 à 14:48:07
+Nom: Julios, Score: 63.84%, Enregistrer le: 24/09/2024 à 14:48:09
+Nom: Julios, Score: 63.19%, Enregistrer le: 24/09/2024 à 14:48:09
+Nom: Julios, Score: 60.93%, Enregistrer le: 24/09/2024 à 14:48:10
+Nom: Julios, Score: 62.16%, Enregistrer le: 24/09/2024 à 14:48:11
+Nom: Julios, Score: 63.21%, Enregistrer le: 24/09/2024 à 14:48:12
+Nom: Julios, Score: 61.29%, Enregistrer le: 24/09/2024 à 14:48:14
