@@ -21,7 +21,9 @@ def Start():
     # Ajouter un bouton de fermeture au nouveau frame
     close_button = ctk.CTkButton(new_window_frame, text="Fermer", command=new_window_frame.destroy)
     close_button.pack(pady=5)
-
+#foction de test
+def Test():
+    print("le test est bon bro !!!!")
     
 
 
@@ -50,18 +52,15 @@ background_label = ctk.CTkLabel(fen, image=background_photo)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)  # Couvrir toute la fenêtre
 
 # Frame principale
-main_frame = ctk.CTkFrame(fen)
+main_frame = ctk.CTkFrame(fen,fg_color=None, border_width=5, border_color="Blue")
 main_frame.pack(side="left", padx=10, pady=10, fill="y")
 
-top_frame = ctk.CTkFrame(fen)
-top_frame.pack(side="top", fill="x", padx=10, pady=10)
+top_frame = ctk.CTkFrame(fen,fg_color="transparent", border_width=9, border_color="Blue")
+top_frame.pack(side="top", fill="x", padx=10, pady=10, anchor = "center")
 
 # Labels
 lab1 = ctk.CTkLabel(fen, text="Mes Options", font=("Helvetica", 16, "bold"))
 lab1.place(x=50, y=20)
-
-# lab2 = ctk.CTkLabel(fen, text="    ---", font=("Helvetica", 16, "bold"))
-# lab2.place(x=50, y=40)
 
 lab3 = ctk.CTkLabel(top_frame, text="KKB", font=("Helvetica", 16, "bold"))
 lab3.pack(side="left")
@@ -71,10 +70,10 @@ lab4.pack(side="left")
 
 # Toggle button
 lab_tog = ctk.CTkLabel(top_frame, text="Dark", font=("Helvetica", 12, "bold"))
-lab_tog.pack(side="right")
+lab_tog.pack(side="right",padx = 0)
 
 tog = ctk.CTkSwitch(top_frame, text="")
-tog.pack(side="right")
+tog.pack()
 
 # Label pour l'heure
 time_label = ctk.CTkLabel(top_frame, font=('Helvetica', 24))
@@ -83,51 +82,54 @@ update_time()
 
 # Icônes des boutons
 icon_paths = {
-    "Ajouter Utilisateur": "C:/Users/_Maes/Desktop/GestCom/src/images/logo_kkbgestcom (2).ico",
-    "Liste Des Utilisateurs": "C:/Users/_Maes/Desktop/GestCom/src/images/logo_kkbgestcom (2).ico",
-    "Feuille d'enregistrement": "C:/Users/_Maes/Desktop/GestCom/src/images/logo_kkbgestcom (2).ico",
-    "Intrusion": "C:/Users/_Maes/Desktop/GestCom/src/images/logo_kkbgestcom (2).ico",
-    "Statistique": "C:/Users/_Maes/Desktop/GestCom/src/images/logo_kkbgestcom (2).ico",
-    "Entrainement": "C:/Users/_Maes/Desktop/GestCom/src/images/logo_kkbgestcom (2).ico",
-    "Configuration": "C:/Users/_Maes/Desktop/GestCom/src/images/logo_kkbgestcom (2).ico",
+    "Ajouter Utilisateur": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/add-user.png",
+    "Liste Des Utilisateurs": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/phone-book.png",
+    "Feuille d'enregistrement": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/des-articles.png",
+    "Intrusion": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/thief.png",
+    "Statistique": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/statistiques.png",
+    "Entrainement": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/ai.png",
+    "Configuration": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/gear.png",
+    "reconnaissance": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/reconnaissance.png",
 }
 
-def create_button(parent, text, icon_path):
+def create_button(parent, text, icon_path,fonc, fgcolor):
     icon_image = Image.open(icon_path)
     icon_image = icon_image.resize((20, 20))  # Redimensionner l'icône
     icon_photo = ImageTk.PhotoImage(icon_image)
-    button = ctk.CTkButton(parent, text=text, width=200, height=50,image=icon_photo, compound="left")
+    button = ctk.CTkButton(parent, text=text, width=200, height=50,image=icon_photo, compound="left",command=fonc, anchor ="center", fg_color=fgcolor )
     button.image = icon_photo  # Prévenir le garbage collector
     return button
 
 # Boutons positionnés en bas de la première frame
-but1 = create_button(main_frame, "Ajouter Utilisateur", icon_paths["Ajouter Utilisateur"])
-but1.pack(side="bottom", pady=5)
+main_frame.configure(fg_color='transparent')
+but1 = create_button(main_frame, "Ajouter Utilisateur", icon_paths["Ajouter Utilisateur"],Test, "blue")
+but1.pack(side="bottom", pady=10, padx=15)
 
-but2 = create_button(main_frame, "Liste Des Utilisateurs", icon_paths["Liste Des Utilisateurs"])
-but2.pack(side="bottom", pady=5)
+but2 = create_button(main_frame, "Liste Des Utilisateurs", icon_paths["Liste Des Utilisateurs"],Test, "blue")
+but2.pack(side="bottom", pady=3,padx=15)
 
-but3 = create_button(main_frame, "Feuille d'enregistrement", icon_paths["Feuille d'enregistrement"])
-but3.pack(side="bottom", pady=5)
+but3 = create_button(main_frame, "Feuille d'enregistrement", icon_paths["Feuille d'enregistrement"],Test, "blue")
+but3.pack(side="bottom", pady=5,padx=15)
 
-but4 = create_button(main_frame, "Intrusion", icon_paths["Intrusion"])
-but4.pack(side="bottom", pady=5)
+but4 = create_button(main_frame, "Intrusion", icon_paths["Intrusion"],Test, "Dark blue")
+but4.pack(side="bottom", pady=5,padx=15)
 
-but5 = create_button(main_frame, "Statistique", icon_paths["Statistique"])
-but5.pack(side="bottom", pady=5)
+but5 = create_button(main_frame, "Statistique", icon_paths["Statistique"],Test, "Dark blue")
+but5.pack(side="bottom", pady=5,padx=15)
 
-but6 = create_button(main_frame, "Entrainement du module", icon_paths["Entrainement"])
-but6.pack(side="bottom", pady=5)
+but6 = create_button(main_frame, "Entrainement du module", icon_paths["Entrainement"],Test, "Dark Blue")
+but6.pack(side="bottom", pady=5,padx=15)
 
-but7 = create_button(main_frame, "Configuration", icon_paths["Configuration"])
-but7.pack(side="bottom", pady=5)
+but7 = create_button(main_frame, "Configuration", icon_paths["Configuration"],Test, "Dark Blue")
+but7.pack(side="bottom", pady=5,padx=15)
 
 # LabelFrame pour l'espace de travail
 # lframe = ctk.CTkFrame(fen, corner_radius=10)
 # lframe.pack(fill="both", expand=True, padx=10, pady=10)
 
 # Bouton pour ouvrir une nouvelle fenêtre interne
-open_window_button = ctk.CTkButton(fen, text="Lancer RECONNAISSANCE", command=Start)
-open_window_button.pack(pady=10)
+open_window_button = create_button(fen, "Lancer RECONNAISSANCE", icon_paths["reconnaissance"],Test,"Dark green")
+# open_window_button = ctk.CTkButton(fen, text="Lancer RECONNAISSANCE",  command=Test)
+open_window_button.pack(pady=1)
 
 fen.mainloop()
