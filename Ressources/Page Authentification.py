@@ -1,22 +1,27 @@
 import customtkinter as ctk
 from PIL import Image, ImageTk
+from tkinter import messagebox
 
 # Fonction de fermeture de l'application
 def close_app():
     fen.destroy()
 
-# Fonction pour gérer la connexion
-def login():
-    username = entry_username.get()
-    password = entry_password.get()
-    # Ajoutez ici la logique pour traiter la connexion
-    print(f"Nom d'utilisateur: {username}, Mot de passe: {password}")
-
+        
 # Fonction pour gérer l'oubli du mot de passe
 def forgot_password():
     # Ajoutez ici la logique pour traiter le mot de passe oublié
     print("Mot de passe oublié")
+def on_enter(e):
+    entry_username.delete(0,'end')
+    
+def on_leave(e):
+    name = entry_username.get()
+    if name == '':
+        entry_username.insert(0,'Username')
 
+        
+          
+        
 # Configuration de la fenêtre principale
 fen = ctk.CTk()
 fen.title("Formulaire de Connexion")
@@ -24,6 +29,26 @@ fen.geometry("800x500")
 fen.iconbitmap('C:/Users/_Maes/Desktop/GestCom/src/images/logo_kkbgestcom (1).ico')
 fen.resizable(False,False)
 fen.configure(set_appearance_mode = "light", fg_color= "white")
+
+
+
+# Fonction pour gérer la connexion
+def login():
+    username = entry_username.get()
+    password = entry_password.get()
+    # Ajoutez ici la logique pour traiter la connexion
+    print(f"Nom d'utilisateur: {username}, Mot de passe: {password}")
+    if username == 'admin' and password =='1234':
+        screen =ctk.CTkToplevel(fen) 
+        screen.title("validateur")
+        screen.geometry('925x500+300')
+        screen.configure(bg_colour ="white")
+        lab_t = ctk.CTkLabel(screen,text=f"wellcome {username} JULIOS MAES",text_color='white', font=('Microsoft YaHei UI Light',30,'bold'))
+        lab_t.pack()
+        screen.mainloop()  
+    else:
+        messagebox.showerror("Erreur", "Nom d'utilisateur ou mot de passe incorrect...")
+
 
 
 #image 
@@ -50,7 +75,8 @@ label_username.pack(pady=2)
 entry_username = ctk.CTkEntry(fr,width=200,height=40,border_color='#57a1f8',fg_color='white',text_color='grey')
 entry_username.pack(pady=5)
 entry_username.insert(0,'Veillez entrer votre nom...')
-
+entry_username.bind('<FocusIn>', on_enter)
+entry_username.bind('<FocusOut>', on_leave)
 # Label pour le mot de passe
 label_password = ctk.CTkLabel(fr, text="Mot de passe:",text_color='black')
 label_password.pack(pady=10)
