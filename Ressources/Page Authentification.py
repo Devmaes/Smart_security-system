@@ -39,6 +39,7 @@ def login():
     # Ajoutez ici la logique pour traiter la connexion
     print(f"Nom d'utilisateur: {username}, Mot de passe: {password}")
     if username == 'admin' and password =='1234':
+        fen.iconify()
         screen =ctk.CTkToplevel(fen) 
         screen.title("validateur")
         screen.geometry('925x500+300')
