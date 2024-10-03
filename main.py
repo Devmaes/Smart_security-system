@@ -26,8 +26,22 @@ def Go():
 #foction de test
 def Test():
     print("le test est bon bro !!!!")
-    
-
+#fonction pour changer le mode
+def change_mode():
+    global cpt_mode,state
+    state = tog.get()
+    mode = "dark"
+    cpt_mode = 0
+    if state:
+        mode = "light"
+        cpt_mode = cpt_mode + 1
+        state = True
+    else:
+        mode = "dark"
+        state = False
+        cpt_mode = cpt_mode + 1
+    ctk.set_appearance_mode(mode)
+    print("appuyyer",state,mode)
 
 
 
@@ -74,7 +88,7 @@ lab4.pack(side="left")
 lab_tog = ctk.CTkLabel(top_frame, text="Dark", font=("Helvetica", 12, "bold"))
 lab_tog.pack(side="right",padx = 0)
 
-tog = ctk.CTkSwitch(top_frame, text="")
+tog = ctk.CTkSwitch(top_frame, text="", command = change_mode)
 tog.pack()
 
 # Label pour l'heure
