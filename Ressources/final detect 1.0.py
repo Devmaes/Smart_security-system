@@ -5,13 +5,16 @@ import PIL.Image, PIL.ImageTk
 import os
 import numpy as np
 import datetime
+from pathlib import Path
 
 # Paramètres http://192.168.43.1:8080/video
 video_path = 0
-output_folder = r"C:\Users\_Maes\Desktop\soutenance 2k24\images photos"
-pretrained_folder = r"C:\Users\_Maes\Desktop\KKB_SECU\Pretrainement"
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+output_folder = Path(os.environ.get('KKBSECU_OUTPUT_DIR', str(PROJECT_ROOT / 'runtime' / 'intrusions')))
+pretrained_folder = Path(os.environ.get('KKBSECU_DATA_DIR', str(PROJECT_ROOT / 'Pretrainement')))
+output_folder.mkdir(parents=True, exist_ok=True)
 max_images_intrus = 15
-log_file = os.path.join(pretrained_folder, "recognition_log.txt")  # Fichier pour enregistrer les résultats
+log_file = output_folder.parent / 'resultats.txt'
 
 encodings_file = os.path.join(pretrained_folder, "face_encodings.npy")
 names_file = os.path.join(pretrained_folder, "face_names.npy")
@@ -80,10 +83,9 @@ def log_recognition_result(name, score):
     now = datetime.datetime.now()
     formatted_date = now.strftime("%d/%m/%Y à %H:%M:%S")  # Exemple: 24/09/2024 à 14:35:22
 
-    log_file = "C:/Users/_Maes/Desktop/KKB_SECU/Pretrainement/resultats.txt"
     with open(log_file, 'a') as file:
         # Ajouter la date et l'heure à l'enregistrement
-        file.write(f"Nom: {name}, Score: {score}%, Enregistrer le: {formatted_date}\n")
+        file.write(f"Nom: {name}, Indice: {score:.3f}, Enregistré le: {formatted_date}\n")
         
 # Fonction pour arrêter la capture vidéo et afficher un message
 def stop_video_with_message():
@@ -124,13 +126,13 @@ def process_frame():
         
         if True in matches:
             best_match_index = matches.index(True)
-            score = round((1 - face_distances[best_match_index]) * 100, 2)
+            score = round(1 - face_distances[best_match_index], 3)
             # name = known_face_names[best_match_index]
-            if score >= 59:
+            if score >= 0.59:
                 name = known_face_names[best_match_index]
                 color = (0, 255, 0)  # Vert pour les visages reconnus
 
-            name_with_score = f"{name} ({score}%)"
+            name_with_score = f"{name} (indice {score:.3f})"
             # Enregistrer le score dans le fichier texte
             log_recognition_result(name, score)
         else:
