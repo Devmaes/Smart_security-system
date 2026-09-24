@@ -1,13 +1,18 @@
 import os
+from pathlib import Path
 import face_recognition
 import numpy as np
 
-pretrained_folder = r"C:\Users\_Maes\Desktop\KKB_SECU\Pretrainement"
-known_faces_folder = r"C:\Users\_Maes\Desktop\soutenance 2k24\personnes connus"
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+pretrained_folder = Path(os.environ.get('KKBSECU_DATA_DIR', str(PROJECT_ROOT / 'Pretrainement')))
+known_faces_folder = Path(os.environ.get('KKBSECU_FACES_DIR', str(PROJECT_ROOT / 'known_faces')))
 encodings_file = os.path.join(pretrained_folder, "face_encodings.npy")
 names_file = os.path.join(pretrained_folder, "face_names.npy")
 
 def save_known_faces_encodings(known_faces_folder):
+    if not known_faces_folder.is_dir():
+        raise FileNotFoundError('Définir KKBSECU_FACES_DIR vers un dossier de photos autorisées.')
+    pretrained_folder.mkdir(parents=True, exist_ok=True)
     known_face_encodings = []
     known_face_names = []
     i=0
