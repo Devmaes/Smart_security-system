@@ -1,0 +1,9 @@
+# Empêche l'ajout accidentel de nouveaux fichiers générés.
+# Les fichiers déjà suivis par Git restent présents dans le dépôt et son historique.
+Pretrainement/*.npy
+Pretrainement/*.txt
+Images/intrus_*.png
+__pycache__/
+*.py[cod]
+.venv/
+.env
