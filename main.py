@@ -1,6 +1,14 @@
 import customtkinter as ctk
 import time
 from PIL import Image, ImageTk
+from pathlib import Path
+import tkinter as tk
+
+BASE_DIR = Path(__file__).resolve().parent
+
+
+def icon_file(name):
+    return str(BASE_DIR / 'Icones' / name)
 
 # Fonction pour mettre à jour l'heure
 def update_time():
@@ -57,10 +65,13 @@ def change_mode():
 fen = ctk.CTk()
 fen.title("KKBSECU")
 fen.attributes("-fullscreen", True)
-fen.iconbitmap('C:/Users/_Maes/Desktop/GestCom/src/images/logo_kkbgestcom (1).ico')
+try:
+    fen.iconbitmap(icon_file('boutique.ico'))
+except tk.TclError:
+    pass
 
 # Ajouter une image d'arrière-plan
-background_image = Image.open('C:/Users/_Maes/Desktop/soutenance 2k24/images photos/identification faciale .png')
+background_image = Image.open(BASE_DIR / 'Images' / 'identification faciale .png')
 background_image = background_image.resize((1200, 650))  # Redimensionner l'image pour couvrir toute la fenêtre
 background_photo = ImageTk.PhotoImage(background_image)
 
@@ -98,15 +109,15 @@ update_time()
 
 # Icônes des boutons
 icon_paths = {
-    "Ajouter Utilisateur": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/add-user.png",
-    "Liste Des Utilisateurs": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/phone-book.png",
-    "Feuille d'enregistrement": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/des-articles.png",
-    "Intrusion": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/thief.png",
-    "Statistique": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/statistiques.png",
-    "Entrainement": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/ai.png",
-    "Configuration": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/gear.png",
-    "reconnaissance": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/reconnaissance.png",
-    "go": "C:/Users/_Maes/Desktop/KKB_SECU/Icones/exit.png",
+    "Ajouter Utilisateur": icon_file('add-user.png'),
+    "Liste Des Utilisateurs": icon_file('phone-book.png'),
+    "Feuille d'enregistrement": icon_file('des-articles.png'),
+    "Intrusion": icon_file('thief.png'),
+    "Statistique": icon_file('statistiques.png'),
+    "Entrainement": icon_file('ai.png'),
+    "Configuration": icon_file('gear.png'),
+    "reconnaissance": icon_file('reconnaissance.png'),
+    "go": icon_file('exit.png'),
 }
 
 def create_button(parent, text, icon_path,fonc, fgcolor):
@@ -143,7 +154,7 @@ but7 = create_button(main_frame, "Configuration", icon_paths["Configuration"],Te
 but7.pack(side="bottom", pady=5,padx=15)
 
 #chargement du logo
-imageL_path = "C:/Users/_Maes/Desktop/KKB_SECU/Icones/logo_KKB.png"
+imageL_path = icon_file('logo_KKB.png')
 imageL = Image.open(imageL_path).resize((200,300))
 photoL = ImageTk.PhotoImage(imageL)
 image_label = ctk.CTkLabel(main_frame, image=photoL, text="")
