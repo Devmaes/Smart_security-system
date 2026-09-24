@@ -11,7 +11,7 @@ Ce dépôt rassemble une interface Python et des scripts expérimentaux de recon
 
 ## Reproduction et limites
 
-Les scripts font référence à des chemins absolus Windows propres à la machine de développement. Ils nécessitent notamment Python, CustomTkinter, Pillow, OpenCV, `face_recognition`, NumPy et une caméra. Aucun fichier de dépendances verrouillées ni protocole d'évaluation n'est fourni ici : ce snapshot ne permet pas de vérifier un taux de reconnaissance ni un niveau de sécurité.
+L'écran `main.py` utilise maintenant les images et icônes du dépôt avec des chemins relatifs. Les scripts de `Ressources/` utilisent encore des chemins absolus Windows propres à la machine de développement. Ils nécessitent notamment Python, CustomTkinter, Pillow, OpenCV, `face_recognition`, NumPy et une caméra. Aucun fichier de dépendances verrouillées ni protocole d'évaluation n'est fourni ici : ce snapshot ne permet pas de vérifier un taux de reconnaissance ni un niveau de sécurité.
 
 Avant toute démonstration, remplacer les chemins absolus, travailler avec des données de test consenties et anonymisées, définir les dépendances et consigner les conditions de mesure. Ne pas publier les encodages, noms, journaux ou images réels.
 
