@@ -1,11 +1,19 @@
-# Empêche l'ajout accidentel de nouveaux fichiers générés.
-# Les fichiers déjà suivis par Git restent présents dans le dépôt et son historique.
-Pretrainement/*.npy
-Pretrainement/*.txt
-Images/intrus_*.png
-__pycache__/
-*.py[cod]
-.venv/
-.env
+# Local data, biometrics, recordings, and operational logs
 /runtime/
 /known_faces/
+/Pretrainement/*.npy
+/Pretrainement/*.npz
+/Pretrainement/*.txt
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.log
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+.DS_Store
+build/
+dist/
